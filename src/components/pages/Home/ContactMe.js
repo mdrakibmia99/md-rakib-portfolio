@@ -20,6 +20,8 @@ const ContactMe = () => {
                         <div className='grid grid-cols-4'>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://github.com/mdrakibmia99"><img className='hover:scale-110' src="images/icons/github.svg" alt="my GitHub" /></a>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://www.linkedin.com/in/md-rakib-mia/"><img className='hover:scale-110' src="images/icons/linkedin.svg" alt="my LinkedIn" /></a>
+                            <a className='lg:ml-0 mx-auto' target='_blank' href="https://www.facebook.com/rakibmia.dev"><img className='hover:scale-110' src="images/icons/facebook.svg" alt="my LinkedIn" /></a>
+                            
                            
                         </div>
                     </div>

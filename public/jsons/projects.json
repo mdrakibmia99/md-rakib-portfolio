@@ -48,7 +48,7 @@
         "name": "Product Analysis:",
         "type": "Product analysis service",
         "image": "images/screenshots/hexisol.png",
-        "description": "This is a simple react website with routing and firebase authentication. Users can log in using email-password or google pop-up. Users cannot access the checkout page without logging in.",
+        "description": "Product analysis website just analyze product and review products. Anyone access the website without login. Graph charts have been used in this website Fully responsive, it built this website using react, tailwind, react-router and many ReactJs components library",
         "links": [
             {
                 "id": 51,
