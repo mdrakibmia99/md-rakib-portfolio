@@ -1,0 +1,65 @@
+[
+    {
+        "id": 21,
+        "name": "Ware House",
+        "type": "Manufacturing Company Website",
+        "image": "images/screenshots/warehouse.png",
+        "description": "Users and admins can log in and register to the website using the firebase authentication system and reset the password.Admin and user can add new items, update items, delete items and add posts. Without a login, a user can’t view private routes and the dashboard.Fully responsive, it built this website using react,nodeJs, row CSS,react-router and many ReactJs components library",
+        "links": [
+            {
+                "id": 31,
+                "title": "Live Site",
+                "url": "https://warehouse-management-web-3fc33.web.app/"
+            },
+            {
+                "id": 32,
+                "title": "Client Side Code",
+                "url": "https://github.com/mdrakibmia99/warehouse-client"
+            },
+            {
+                "id": 33,
+                "title": "Server Side Code",
+                "url": "https://github.com/mdrakibmia99/warehouse-server"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Independent service provider",
+        "type": "Service Provider",
+        "image": "images/screenshots/independent.png",
+        "description": "Users and admins can log in and register to the website using the firebase authentication system and reset the password. Only registered users can check out. Without a login, the user can not view private routes. Fully responsive, it built this website using react, Bootstrap,CSS, react-router and many ReactJs components library",
+        "links": [
+            {
+                "id": 41,
+                "title": "Live Site",
+                "url": "https://independent-service-prov-15a1e.web.app/"
+            },
+          
+            {
+                "id": 43,
+                "title": "Server Side Code",
+                "url": "https://github.com/mdrakibmia99/independent-service"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Product Analysis:",
+        "type": "Product analysis service",
+        "image": "images/screenshots/hexisol.png",
+        "description": "This is a simple react website with routing and firebase authentication. Users can log in using email-password or google pop-up. Users cannot access the checkout page without logging in.",
+        "links": [
+            {
+                "id": 51,
+                "title": "Live Site",
+                "url": "https://rk-hexisol-review.netlify.app/"
+            },
+            {
+                "id": 52,
+                "title": "Client Side Code",
+                "url": "https://github.com/mdrakibmia99/product-analysis"
+            }
+        ]
+    }
+]
