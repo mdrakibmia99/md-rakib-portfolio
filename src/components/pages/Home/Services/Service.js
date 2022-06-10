@@ -4,7 +4,8 @@ import { motion } from 'framer-motion';
 const Service = ({ service }) => {
     const { title, image, description, technologyUsed } = service;
     return (
-        <motion.div
+        <div className=''>
+            <motion.div
             whileHover={{ translateY: -15 }}
             whileTap={{ scale: 1.05 }}
             className="card bg-base-100 shadow-xl"
@@ -20,6 +21,7 @@ const Service = ({ service }) => {
                 </div>
             </div>
         </motion.div>
+        </div>
     );
 };
 
