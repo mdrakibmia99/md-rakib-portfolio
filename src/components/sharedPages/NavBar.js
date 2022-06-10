@@ -1,10 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Routes, Route, Link } from "react-router-dom";
 
 const NavBar = () => {
     const navbarItems = <>
-        <li className='mx-auto lg:mr-4'><a href='#services'>Services</a></li>
-        <li className='mx-auto lg:mr-4'><a href='#portfolio'>Projects</a></li>
+
+        <li className='mx-auto lg:mr-4'> <Link to="home">Home</Link></li>
+        <li className='mx-auto lg:mr-4'><Link to="about">About</Link> </li>
+        <li className='mx-auto lg:mr-4'><Link to="project">Project</Link></li>
+        <li className='mx-auto lg:mr-4'><Link to="portfolio">Portfolio</Link></li>
+        <li className='mx-auto lg:mr-4'><Link to="contact">Contact</Link> </li>
+        <li className='mx-auto lg:mr-4'><Link to="blog">Blog</Link> </li>
+        
+        <li className='mx-auto lg:mr-4'> <a href="https://drive.google.com/file/d/14AwRNQ28vvH4u936eQ4DNH85PRV8nv--/view?usp=sharing" target="_blank" className="btn btn-primary">Resume</a></li>
     </>
     return (
         <motion.div

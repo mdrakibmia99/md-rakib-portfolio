@@ -3,12 +3,13 @@ import { motion } from 'framer-motion';
 
 const AboutMe = () => {
     return (
-        <motion.div
+      <div id='about'>
+          <motion.div  
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: 'easeInOut' }}
             className="hero mb-32">
-            <div className="hero-content w-full flex-col justify-between lg:flex-row">
+            <div className="hero-content w-full flex-col justify-between lg:flex-row" >
                 <div className='mask mask-hexagon mb-12 lg:mb-0'>
                     <img src="images/arts/aboutme.svg" className="" alt='about me' />
                 </div>
@@ -19,6 +20,7 @@ const AboutMe = () => {
                 </div>
             </div>
         </motion.div>
+      </div>
     );
 };
 
